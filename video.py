@@ -33,7 +33,7 @@ from yolov3 import YOLOv3Net
 
 model_size = (416, 416,3)
 num_classes = 80
-class_name = './data/coco.names'
+class_name = './data/obj.names'
 max_output_size = 100
 max_output_size_per_class= 20
 iou_threshold = 0.5
