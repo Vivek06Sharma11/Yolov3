@@ -23,10 +23,10 @@ import cv2
 import numpy as np
 from yolov3 import YOLOv3Net
 
-#If you don't have enough GPU hardware device available in your machine, uncomment the following three lines:
-physical_devices = tf.config.experimental.list_physical_devices('GPU')
-assert len(physical_devices) > 0, "Not enough GPU hardware devices available"
-tf.config.experimental.set_memory_growth(physical_devices[0], True)
+# #If you don't have enough GPU hardware device available in your machine, uncomment the following three lines:
+# physical_devices = tf.config.experimental.list_physical_devices('GPU')
+# assert len(physical_devices) > 0, "Not enough GPU hardware devices available"
+# tf.config.experimental.set_memory_growth(physical_devices[0], True)
 
 model_size = (416, 416,3)
 num_classes = 80
